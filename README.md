@@ -13,17 +13,15 @@
 > Your program will need to build a linear linked list of these food carts and display them to the user once done.
 Extra Credit will be awarded for building the linear linked list in sorted order, based on the name of the food.
 Follow this plan:
-Task 1. In a .h file, create a struct food cart with the five members. Use a dynamically allocated array (char *) for at least one of the members.
-Task 2. Add a struct node to your .h file
+> Task 1. In a .h file, create a struct food cart with the five members. Use a dynamically allocated array (char *) for at least one of the members.
+> Task 2. Add a struct node to your .h file
 a. The data in a node should be a food cart object and a next pointer.
-Task 3. In your .cpp file, create a function to read in information from the user
-Task 4. Write a function to insert this information into a linear linked list
+> Task 3. In your .cpp file, create a function to read in information from the user
+> Task 4. Write a function to insert this information into a linear linked list
 a. Start by inserting at the beginning
-b. Extra Credit: Then, implement the task to insert the data in sorted
-CS162 Winter 2023 Program #5
-order as it is being read in (for extra credit)
-Task 5. Write another function to display all of the games
-Task 6. Release all of the dynamic memory (destroying the LLL).
+b. Extra Credit: Then, implement the task to insert the data in sorted order as it is being read in
+> Task 5. Write another function to display all of the games
+> Task 6. Release all of the dynamic memory (destroying the LLL).
 Other important items:
 1. All memory that is dynamically allocated needs to be released with delete when you are done.
 2. Make sure now to separate out your code into a .h file and .cpp files.
